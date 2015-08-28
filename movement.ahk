@@ -1,22 +1,22 @@
 
 SetTitleMatchMode, 2
 
-#IfWinActive, Microsoft Visual Studio
+#IfWinActive, ahk_exe devenv.exe
 ^K::
   Send, {Down}
   return
   
-#IfWinActive, Microsoft Visual Studio
+#IfWinActive, ahk_exe devenv.exe
 ^J::
   Send, {Up}
   return
   
-#IfWinActive, Microsoft Visual Studio
+#IfWinActive, ahk_exe devenv.exe
 ^H::
   Send, {Left}
   return
   
-#IfWinActive, Microsoft Visual Studio
+#IfWinActive, ahk_exe devenv.exe
 ^L::
   Send, {Right}
   return
